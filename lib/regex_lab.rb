@@ -12,7 +12,7 @@ end
 
 
 def words_five_letters_long(text)
-if text.grep(/^\w{5}\s/) == true
+if text.grep(/^\w{5}\s/)
   words_string
 end
 end
